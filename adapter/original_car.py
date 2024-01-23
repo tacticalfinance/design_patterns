@@ -26,6 +26,7 @@ class OriginalCar(IOrigianlCar):
         self.__car_color = car_color
 
 
-car = OriginalCar(car_color="yellow")
-car.car_color = "white"
-print(car.car_color)
+if __name__ == "__main__":
+    car = OriginalCar(car_color="yellow")
+    car.car_color = "white"
+    print(car.car_color)
